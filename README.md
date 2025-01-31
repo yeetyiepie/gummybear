@@ -175,6 +175,7 @@ Status Codes
 204: Task updated or deleted successfully, or no tasks available.
 404: Task not found.
 200: Default status code for successful operations that do not match the specific cases above.
-Security
+
 ```
+Security
 API access is secured using an API key, which must be provided either in the request header or as a query parameter. The API key is managed securely through an .env file. Ensure you do not share the .env file publicly.
